@@ -3,6 +3,7 @@ package uz.itcenter.bogcha.entity;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "odamlar")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
